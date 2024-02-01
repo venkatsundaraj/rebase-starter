@@ -5,7 +5,7 @@ const addTen = function (value: number) {
 const subractTen = function (value: number) {
   return value - 10
 }
-const divideTen = function (value: number) {
+const multiply = function (value: number) {
   return value / 10
 }
 
