@@ -1,5 +1,10 @@
-const add = function (value: number) {
+const addTen = function (value: number) {
+  return value + 10
+}
+
+const subractTen = function (value: number) {
   return value - 10
 }
 
-console.log(add(10))
+console.log(addTen(10))
+console.log(subractTen(10))
