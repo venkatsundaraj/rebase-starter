@@ -11,9 +11,13 @@ const divideTen = function (value: number) {
 const multiplyTen = function (value: number) {
   return value * 10
 }
+const sayhello = function () {
+  return "sayhello"
+}
 
 console.log(addTen(10))
 console.log(subractTen(10))
 
 console.log(divideTen(10))
 console.log(multiplyTen(10))
+console.log(sayhello())
